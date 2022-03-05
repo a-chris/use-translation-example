@@ -20,7 +20,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Image src="https://github.com/a-chris/achris.me/blob/main/public/resources/avatar.png?raw=true" width={100} height={100} layout="intrinsic" alt="my avatar" />
+        <Image src="https://github.com/a-chris/achris.me/blob/main/public/resources/avatar.webp?raw=true" width={100} height={100} layout="intrinsic" alt="my avatar" />
         <h1 className={styles.title}>{t("WELCOME_MSG")}</h1>
         {t("WELCOME_MSG_COLORED")}
         <button onClick={switchLanguage}>{t("SWITCH_LOCALE")}</button>
