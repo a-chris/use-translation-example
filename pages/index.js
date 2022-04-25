@@ -19,7 +19,7 @@ export default function Home() {
         <meta name="description" content="Build your own useTranslation hook with Next.js" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Script defer data-domain="achris.me" src="https://faenz.onrender.com/faenz.js" />
+      <Script defer data-domain="use-translation-example.vercel.app" src="https://faenz.onrender.com/faenz.js" />
 
       <main className={styles.main}>
         <Image src="https://github.com/a-chris/achris.me/blob/main/public/resources/avatar.webp?raw=true" width={100} height={100} layout="intrinsic" alt="my avatar" />
